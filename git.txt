@@ -11,4 +11,14 @@ Let's follow the below steps.
 4.git commit -m "message to the commit"
 5.git remote add origin "URL of git repository"
 6.git push origin master
-7.
+
+
+If you get some error please follow the below commands:
+
+git fetch origin master:tmp
+
+git rebase tmp
+
+git push origin HEAD:master
+
+git origin  -D tmp
