@@ -22,3 +22,9 @@ git rebase tmp
 git push origin HEAD:master
 
 git origin  -D tmp
+
+
+after this lastly use below command
+
+
+git push origin
