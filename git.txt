@@ -1,0 +1,14 @@
+Git Commands:
+
+Let's learn step wise.
+
+* First of all we have to Inilialize a folder or you can call it as a repository.
+Let's follow the below steps.
+
+1.git init
+2.git status
+3.git add .
+4.git commit -m "message to the commit"
+5.git remote add origin "URL of git repository"
+6.git push origin master
+7.
