@@ -12,6 +12,7 @@ Let's follow the below steps.
 5.git remote add origin "URL of git repository"
 6.git push origin master
 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 If you get some error please follow the below commands:
 
@@ -23,8 +24,28 @@ git push origin HEAD:master
 
 git origin  -D tmp
 
++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-after this lastly use below command
-
+after this lastly use below command once completed the above one.
 
 git push origin
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+About git Branches.
+
+create a git branch : git branch feature1
+
+To check all the branch: git branch
+
+To delete branch: git branch -D feature1
+To switch to branch: git checkout branch-name
+
+
+
+
+
+ 
+
+
+
