@@ -48,6 +48,12 @@ git stash:This command is basically use to avoid confusion in commiting the cont
 git stash pop:This command is use to come back to working state.
 
 
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+To revert the commit that we have done:git revert commit-id
+To see the difference in commit on same file:git diff commit-id1 commit-id2
+
+
 
 
 
