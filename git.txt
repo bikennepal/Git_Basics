@@ -53,6 +53,33 @@ git stash pop:This command is use to come back to working state.
 To revert the commit that we have done:git revert commit-id
 To see the difference in commit on same file:git diff commit-id1 commit-id2
 
+git fetch: git fetch will tell that there are changes in the remote repo but it won't copies the changes to the local repo.
+git pull: git clone will tell there are changes as well as it will pull from the remote repository
+
+how to fix a proken commit.
+how to recover the deleted commits:
+git reflog will list all the commits including deleted ones.
+git reset --hard e0814474:
+What happens when .git folder gets deleted?
+git folder, the information saved by Git will be lost, and the directory will no longer act as a Git repository.
+What is git index?
+git index is a git critical data structure and git saves all of them in index.
+
+What is the difference between Git tree and blob?
+Blobs are Stored in Trees
+
+Remember there's no metadata in the blobs, and instead the blobs are just about the file's contents. Git maintains the structure of the files within the repository in a tree by attaching blobs as leaf nodes within a tree.
+
+
+what is function of git-ls tree?
+it's list the difectory in a graphical form.
+
+What does git stash, git stash apply, git stash pop, and git stash drop commands do?
+Ans: 
+
+
+
+
 
 
 
