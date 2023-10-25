@@ -77,6 +77,14 @@ it's list the difectory in a graphical form.
 What does git stash, git stash apply, git stash pop, and git stash drop commands do?
 Ans: 
 
+<<<<<<< Updated upstream
+git stash: This is a command we use to stash umcommited changes.
+git pop: This command will pop out the last stash
+git apply: 
+
+=======
+git stash: 
+>>>>>>> Stashed changes
 
 
 
